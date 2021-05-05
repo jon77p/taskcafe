@@ -1,8 +1,11 @@
+ARG ARCH=
 FROM node:14.5-alpine as frontend
 RUN apk --no-cache add curl
 WORKDIR /usr/src/app
 COPY frontend .
-RUN yarn install
+RUN npm config rm proxy
+RUN npm config rm https-proxy
+RUN yarn install --network-timeout 1000000
 RUN yarn build
 
 FROM golang:1.14.5-alpine as backend
