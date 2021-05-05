@@ -17,7 +17,4 @@ jobs:
       - name: login to docker hub
         run: echo "${{ secrets.DOCKER_TOKEN }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" -- password-stdin
       - name: build image
-      run: |
-        docker buildx build --push \
-        --tag jon77p/taskcafe:latest \
-      --platform linux/amd64,linux/arm/v7,linux/arm64 .
+        run: docker buildx build --push --tag jon77p/taskcafe:latest --platform linux/amd64,linux/arm/v7,linux/arm64 .
