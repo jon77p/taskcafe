@@ -31,7 +31,7 @@
     "axios": "^0.21.3",
     "axios-auth-refresh": "^3.1.0",
     "color": "^3.1.2",
-    "date-fns": "^2.21.1",
+    "date-fns": "^2.28.0",
     "dayjs": "^1.10.4",
     "dompurify": "^2.2.8",
     "emoji-mart": "^3.0.1",
