@@ -20,7 +20,7 @@
     "@types/react-router-dom": "^5.1.7",
     "@types/react-select": "^4.0.15",
     "@types/react-timeago": "^4.1.1",
-    "@types/styled-components": "^5.1.0",
+    "@types/styled-components": "^5.1.21",
     "apollo-cache-inmemory": "^1.6.5",
     "apollo-client": "^2.6.8",
     "apollo-link": "^1.2.13",
