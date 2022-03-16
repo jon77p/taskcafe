@@ -36,7 +36,7 @@
     "dompurify": "^2.2.8",
     "emoji-mart": "^3.0.1",
     "emoticon": "^4.0.0",
-    "graphql": "^15.5.0",
+    "graphql": "^15.8.0",
     "graphql-tag": "^2.12.4",
     "history": "^5.0.0",
     "immer": "^9.0.6",
